@@ -91,6 +91,8 @@ git branch 查看所有分支，和当前所在分支、
 
 git branch -d 删除不需要的分支
 
+git branch --merged和--no-merged选项可以过滤git branch显示的列表中已经合并或尚未合并当前分支的分支。
+
 
 
 
