@@ -85,6 +85,11 @@ git log --oneline --decorate 在一行显示当前所在的分支信息
 
 git checkout <branchname> 用于切换分支
 
+git checkout -b <branchname> 创建新的分支并且切换到新的分支中
+
+git branch 查看所有分支，和当前所在分支、
+
+git branch -d 删除不需要的分支
 
 
 
