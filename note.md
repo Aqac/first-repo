@@ -80,7 +80,10 @@ git reset HEAD
 撤销 git add 操作：当你不小心 git add 了不想暂存的文件时，使用 git reset HEAD <file> 来撤销这一步。
 准备新的提交：在你已经暂存了一些更改但又发现需要修改文件或暂存不同的文件时，git reset HEAD 很有用。
 
+git checkout -- <file>丢弃工作区的修改，恢复到上一次提交状态，和git restore命令的效果等同。
+git log --oneline --decorate 在一行显示当前所在的分支信息
 
+git checkout <branchname> 用于切换分支
 
 
 
